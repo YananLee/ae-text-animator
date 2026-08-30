@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AE Text Animator — After Effects Kinetic Typography / AE 动态字体库</title>
+    <meta
+      name="description"
+      content="Open-source After Effects–style text animation library. 90+ AE 动态字体 / AE 文字动画 presets for the web. Live editor: TypeMotion.Art."
+    />
+    <meta name="keywords" content="After Effects, AE text animation, AE动态字体, 文字动画, kinetic typography, typewriter, GSAP, TypeMotion" />
+    <link rel="canonical" href="https://yananlee.github.io/ae-text-animator/" />
+    <meta property="og:title" content="AE Text Animator / AE 动态字体库" />
+    <meta property="og:description" content="After Effects–style kinetic typography presets for the web. Try the live editor on TypeMotion.Art." />
+    <meta property="og:url" content="https://yananlee.github.io/ae-text-animator/" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="kicker">Open source AE text animation library</p>
+        <h1>AE Text Animator</h1>
+        <p class="sub">After Effects–style kinetic typography / AE 动态字体库</p>
+      </div>
+      <nav>
+        <a href="https://www.typemotion.art" rel="noopener">TypeMotion.Art</a>
+        <a href="https://www.typemotion.art/templates/text-animation" rel="noopener">文字动画编辑器</a>
+        <a href="https://github.com/YananLee/ae-text-animator" rel="noopener">GitHub</a>
+      </nav>
+    </header>
+
+    <section class="stage-wrap">
+      <div id="stage" class="stage" aria-live="polite"></div>
+    </section>
+
+    <section class="controls">
+      <label>
+        Text / 文字
+        <input id="text" type="text" value="AE 动态字体" maxlength="48" />
+      </label>
+      <label>
+        Speed
+        <input id="speed" type="range" min="0.4" max="2.2" step="0.1" value="1" />
+      </label>
+      <label>
+        Color
+        <input id="color" type="color" value="#f4f0ea" />
+      </label>
+      <button id="replay" type="button">Replay</button>
+    </section>
+
+    <section class="catalog">
+      <h2>90+ AE-style presets / 预设</h2>
+      <div id="tabs" class="tabs"></div>
+      <div id="presets" class="presets"></div>
+    </section>
+
+    <footer>
+      Independent open-source engine. Full editor:
+      <a href="https://www.typemotion.art" rel="noopener">https://www.typemotion.art</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="./ae-text-animator.global.js"></script>
+    <script src="./demo.js"></script>
+  </body>
+</html>

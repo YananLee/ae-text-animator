@@ -1,0 +1,60 @@
+{
+  "name": "ae-text-animator",
+  "version": "1.0.0",
+  "description": "After Effects–style kinetic typography presets for the web. AE 动态字体 / AE 文字动画开源库.",
+  "keywords": [
+    "after effects",
+    "ae",
+    "ae text animation",
+    "kinetic typography",
+    "text animation",
+    "dynamic font",
+    "motion graphics",
+    "gsap",
+    "type animation",
+    "ae presets",
+    "AE动态字体",
+    "动态字体",
+    "文字动画",
+    "AE文字动画"
+  ],
+  "homepage": "https://www.typemotion.art",
+  "bugs": {
+    "url": "https://github.com/YananLee/ae-text-animator/issues"
+  },
+  "license": "MIT",
+  "author": "TypeMotion.Art",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YananLee/ae-text-animator.git"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/index.global.js",
+  "jsdelivr": "./dist/index.global.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup && cp dist/index.global.js docs/ae-text-animator.global.js"
+  },
+  "peerDependencies": {
+    "gsap": "^3.12.0"
+  },
+  "devDependencies": {
+    "gsap": "^3.12.5",
+    "tsup": "^8.5.0",
+    "typescript": "^5.6.3"
+  }
+}
