@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typemotion-art-svg"
+version = "0.1.0"
+description = "Generate lightweight SVG graphics for TypeMotion.Art workflows"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "YananLee"}]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Multimedia :: Graphics"]
+
+[project.urls]
+Homepage = "https://typemotion.art/"
+Source = "https://github.com/YananLee/ae-text-animator/tree/main/python"
+
+[tool.setuptools]
+py-modules = ["typemotion_art_svg"]
