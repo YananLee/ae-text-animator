@@ -19,7 +19,7 @@ This repository is the open-source animation engine. TypeMotion.Art is the full 
 ## Install
 
 ```bash
-npm install ae-text-animator gsap
+npm install typemotion-art-text-animation gsap
 ```
 
 GSAP is a peer dependency. Use it under the [GSAP license](https://gsap.com/community/standard-license/).
@@ -27,7 +27,7 @@ GSAP is a peer dependency. Use it under the [GSAP license](https://gsap.com/comm
 ## Usage
 
 ```js
-import { animateText, presets } from "ae-text-animator";
+import { animateText, presets } from "typemotion-art-text-animation";
 
 const el = document.querySelector("#headline");
 
@@ -46,7 +46,7 @@ CDN / browser:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/ae-text-animator/dist/index.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typemotion-art-text-animation/dist/index.global.js"></script>
 <script>
   AETextAnimator.animateText(document.querySelector("#headline"), {
     text: "AE 动态字体",
@@ -156,7 +156,7 @@ Replay the same node with another preset, or call `destroyAnimation(el)` to stop
 </details>
 
 ```js
-import { categories, listPresets, presets } from "ae-text-animator";
+import { categories, listPresets, presets } from "typemotion-art-text-animation";
 
 listPresets("animate-in");
 presets.filter((item) => item.featured);
