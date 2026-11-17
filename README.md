@@ -178,4 +178,4 @@ Small local SVG utilities are maintained in [`python/`](./python/), [`jsr/`](./j
 
 - JSR: [`@yananlee/typemotion-art-svg`](https://jsr.io/@yananlee/typemotion-art-svg)
 - Rust: [`typemotion-art-svg`](https://crates.io/crates/typemotion-art-svg)
-- Python: `typemotion-art-svg` source and built distributions are ready in `python/`; PyPI upload is pending an account publishing credential.
+- Python: [`typemotion-art-svg`](https://pypi.org/project/typemotion-art-svg/0.1.0/) is published; source is in [`python/`](./python/).
