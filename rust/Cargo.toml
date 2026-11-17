@@ -1,0 +1,14 @@
+[package]
+name = "typemotion-art-svg"
+version = "0.1.0"
+edition = "2021"
+description = "Generate lightweight SVG graphics for TypeMotion.Art workflows"
+license = "MIT"
+homepage = "https://typemotion.art/"
+repository = "https://github.com/YananLee/ae-text-animator"
+readme = "README.md"
+keywords = ["svg", "graphics", "animation"]
+categories = ["graphics", "visualization"]
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE"]
+
+[dependencies]
