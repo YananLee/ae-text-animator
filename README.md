@@ -171,3 +171,11 @@ Build, preview, and export these AE text animations in the browser:
 ## License
 
 MIT. GSAP remains under its own license.
+
+## Additional SVG packages
+
+Small local SVG utilities are maintained in [`python/`](./python/), [`jsr/`](./jsr/), and [`rust/`](./rust/). They do not call the website's export or AI service.
+
+- JSR: [`@yananlee/typemotion-art-svg`](https://jsr.io/@yananlee/typemotion-art-svg)
+- Rust: [`typemotion-art-svg`](https://crates.io/crates/typemotion-art-svg)
+- Python: `typemotion-art-svg` source and built distributions are ready in `python/`; PyPI upload is pending an account publishing credential.
